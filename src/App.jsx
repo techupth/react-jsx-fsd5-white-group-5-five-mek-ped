@@ -20,12 +20,16 @@ function IntroSection() {
   };
 
   return (
-    <div className={container}>
-      <h3 className={title}>TechUp Thailand</h3>
-      <p className={body}>
+    <div className={articleStyles.container}>
+      <h3 className={articleStyles.title}>TechUp Thailand</h3>
+      <p className={articleStyles.body}>
         เตรียมพบกับหลักสูตรปั้นคุณเป็น Software Developer ภายใน 4 เดือน
       </p>
-      <a className={link} href="https://www.techupth.com/" target="blank">
+      <a
+        className={articleStyles.link}
+        href="https://www.techupth.com/"
+        target="blank"
+      >
         techupth.com
       </a>
       {getCurrentDateTime()}
